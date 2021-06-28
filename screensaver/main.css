@@ -1,0 +1,277 @@
+* {
+box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  background: #deb887;
+}
+
+img {
+  max-width: 100%;
+}
+
+.circle {
+  background: rgb(186, 57, 232);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin:1px 50px;
+  animation: pulse;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+}
+
+@keyframes pulse {
+  0% {
+    background: #8b4513;
+    transform: scale(1);
+  }
+  50% {
+    background: #deb887;
+  }
+  100% {
+    background: #8b4513;
+    transform: scale(1.5);
+  }
+}
+
+.circle2 {
+  background:rgb(186, 57, 232);
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  margin:0px 900px;
+  animation:pulse 4.7s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    background: #8b4513;
+    transform: scale(1);
+  }
+  50% {
+    background: #deb887;
+  }
+  100% {
+    background: #8b4513;
+    transform:scale(1.5);
+  }
+}
+
+.circle3 {
+  background: rgb(186, 57, 232);
+  width: 200px;
+  height: 200px;
+  border-radius:50%;
+  margin-left: 110px;
+  margin-bottom:auto;
+  animation: pulse 6s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    background: #8b4513;
+    transform: scale(1);
+  }
+  50% {
+    background: #deb887;
+  }
+  100% {
+    background: #8b4513;
+    transform:scale(1.5);
+  }
+}
+
+.circle4 {
+  background: rgb(186, 57, 232);
+  width: 150px;
+  height:150px;
+  border-radius: 50%;
+  margin: 60px;
+  position: absolute;
+  bottom: -10px;
+  right: 100px;
+  z-index: 2;
+  animation: pulse 7s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    background: #8b4513;
+    transform: scale(1);
+  }
+  50% {
+    background: #deb887;
+  }
+  100% {
+    background: #8b4513;
+    transform: scale(1.5);
+  }
+}
+
+.circle5 {
+  background:rgb(186, 57, 232);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin:auto;
+  position: absolute;
+  top:800px;
+  bottom:100px;
+  left:50px;
+  right:300px;
+  animation: pulse 8s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    background: #8b4513;
+    transform: scale(1);
+  }
+  50% {
+    background: #deb887;
+  }
+  100% {
+    background: #8b4513;
+    transform:scale(2);
+  }
+}
+
+.circle6 {
+  background:rgb(186, 57, 232);
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+  margin:auto;
+  position: absolute;
+  bottom: 100px;
+  right: 850px;
+  top: -300px;
+  animation: pulse 9s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    background: #8b4513;
+    transform: scale(1);
+  }
+  50% {
+    background: #deb887;
+  }
+  100% {
+    background: #8b4513;
+    transform: scale(2);
+  }
+}
+
+.circle7 {
+  background:rgb(186, 57, 232);
+  width: 65px;
+  height:65px;
+  border-radius: 50%;
+  margin:auto;
+  position: absolute;
+  top:50px;
+  right: 100px;
+  animation: pulse 10s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    background: #8b4513;
+    transform: scale(1);
+  }
+  50% {
+    background: #deb887;
+  }
+  100% {
+    background: #8b4513;
+    transform: scale(2);
+  }
+}
+
+.circle8 {
+  background: rgb(186, 57, 232);
+  width:65px;
+  height:65px;
+  border-radius:50%;
+  margin: auto;
+  position: absolute;
+  top: 200px;
+  bottom: 50px;
+  left: 100px;
+  right: 100px;
+  animation: pulse 11s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    background: #8b4513;
+    transform: scale(1);
+  }
+  50% {
+    background: #deb887;
+  }
+  100% {
+    background: #8b4513;
+    transform: scale(2);
+  }
+}
+
+.circle9 {
+  background: rgb(186, 57, 232);
+  width: 50px;
+  height:50px;
+  border-radius: 50%;
+  margin:auto;
+  position: absolute;
+  /* top: 70px; */
+  bottom: 40px;
+  left:100px;
+  /* right:50px; */
+  animation: pulse 12s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    background: #8b4513;
+    transform: scale(1);
+  }
+  50% {
+    background: #deb887;
+  }
+  100% {
+    background: #8b4513;
+    transform:scale(2);
+  }
+}
+
+.circle10 {
+  background: purple;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  top: 70px;
+  bottom: 70px;
+  left: 1370px;
+  right: 50px;
+  animation: pulse 12.5s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    background: #8b4513;
+    transform: scale(1);
+  }
+  50% {
+    background: #deb887;
+  }
+  100% {
+    background: #8b4513;
+    transform: scale(2);
+  }
+}
