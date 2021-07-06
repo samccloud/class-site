@@ -1,0 +1,108 @@
+* {
+box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  background: rgb(47, 37, 231)
+}
+
+img {
+  max-width: 100%;
+}
+
+.triangle {
+  width: 0;
+  height:0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 200px solid red;
+  margin: 300px 300px;
+  animation: spin 1s infinite alternate;
+}
+
+@keyframes spin {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.circle {
+  background: rgb(49, 203, 24);
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin: auto;
+  position: absolute;
+  top: 200px;
+  bottom: 50px;
+  left: 100px;
+  right: 100px;
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    background: rgb(49, 203, 24);
+    transform: scale(1);
+  }
+  50% {
+    background: rgb(215, 240, 12);
+  }
+  100% {
+    background: rgb(49, 203, 24);
+    transform: scale(2);
+  }
+}
+
+.triangle-tur {
+  width: 0;
+  height:0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 150px solid turquoise;
+  margin: auto;
+  position: absolute;
+  top:70px;
+  bottom: 40px;
+  left: 100px;
+  right: 50px;
+  animation: rotate .5s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.circle-pink {
+  background: pink;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin:auto;
+  position: absolute;
+  /* top: 70px; */
+  bottom: 150px;
+  left:390px;
+  /* right:50px; */
+  animation: change .5 infinite;
+}
+
+@keyframes change {
+  0% {
+    background: pink;
+    transform: scale(1);
+}
+  100% {
+    background: rgb(255, 145, 0);
+    transform: scale(1.5);
+  }
+}

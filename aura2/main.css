@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(183, 175, 235, 0.9)
+}
+
+img {
+  max-width: 100%;
+}
+
+.marquee {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  font-size: 35px;
+}
