@@ -15,8 +15,8 @@ body {
   left: 210px;
   right: 150px;
 	animation:pulse 3s infinite;
-  animation:rotate 6s infinite;
-  /* animation: rotate 4s infinite alternate; */
+  /* animation:rotate 6s infinite; */
+  animation: rotate 3s infinite alternate;
 }
 
 
@@ -64,11 +64,11 @@ body {
   }
 }
 
-/* @keyframes rotate {
+@keyframes rotate {
   0% {
     transform: scale(1);
   }
   100% {
-    transform: scale(2);
-  } */
+    transform: scale(1.5);
+  }
 }
