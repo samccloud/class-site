@@ -93,10 +93,10 @@ img {
   bottom: 150px;
   left:390px;
   /* right:50px; */
-  animation: change .5 infinite;
+  animation: pulsing .5 infinite;
 }
 
-@keyframes change {
+@keyframes pulsing {
   0% {
     background: pink;
     transform: scale(1);
