@@ -4,6 +4,7 @@ box-sizing:border-box;
 
 body {
   margin: 0;
+  background-color: rgb(168, 63, 241);
 }
 
 img {
@@ -11,7 +12,7 @@ img {
 }
 
 .flex-container {
-  background: thistle;
+  background: rgb(40, 227, 53);
   width:600px;
   height:400px;
   display: flex;
@@ -23,7 +24,8 @@ img {
 }
 
 .items {
-  background:skyblue;
+  background:rgb(64, 55, 232);
+  color: white;
   width:150px;
   height:50px;
   margin: 5px;
