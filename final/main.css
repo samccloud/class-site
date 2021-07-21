@@ -103,7 +103,10 @@ img:hover {
   font-size: 25px;
   font-family: storefront-pro, sans-serif;
   /* font-family: impact; */
-  margin-left: 20px;
+  /* margin-left: 20px; */
+  position: absolute;
+  top: 750px;
+  left: 20px;
 }
 
 .backhome {
@@ -111,6 +114,16 @@ img:hover {
   font-family: storefront-pro, sans-serif;
   /* font-family: impact; */
   margin-left: 20px;
+}
+
+.home {
+  font-size: 25px;
+  font-family: storefront-pro, sans-serif;
+  /* font-family: impact; */
+  position: absolute;
+  top: 750px;
+  left: 20px;
+
 }
 
 a:hover {
