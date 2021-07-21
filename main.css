@@ -17,6 +17,33 @@ h1{
   margin-top: 200px;
 }
 
+h2 {
+  color: slateblue;
+  font-family: futura;
+}
+
+.reading {
+  font-family: impact;
+  font-size: 50px;
+  text-align: center;
+  color: #fff468;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: 400px;
+  width: 500px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+/* .backhome {
+  margin-left: 20px;
+  font-family: imapact; */
+}
+
 /* ul{
   font-size: 20px;
   color: teal;
